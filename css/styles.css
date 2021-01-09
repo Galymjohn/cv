@@ -1,0 +1,26 @@
+body {
+  background-color: #EAF6F6;
+  padding-left: 5%;
+}
+hr {
+  border-style: none;
+  height: 2px;
+  border-top-style: dotted;
+  width: 30%;
+  border-color: grey;
+  border-width: 5px;
+}
+h1, h3{
+    color: #66bfbf;
+}
+/*************class selectors-to apply same style to a a group of related items*/
+.pic{
+    padding: 20px;
+}
+.img:hover {
+    background-color: gold;
+}
+/*************ID Selectors- for unique item */
+#work {
+    font-weight: 200;
+}
